@@ -1,0 +1,61 @@
+﻿body {
+}
+.topDecoration {
+    height: 30px;
+}
+.navBarTop {
+    height: auto;
+    width: auto;
+    padding-bottom: 1%;
+}
+.topNbar {
+    /*
+    z-index: 1;
+    top: -2px;
+    left: 0px;
+    width: 997px;
+    */
+    height: 60px;
+    padding-top: 0.3%;
+    padding-left: 0%;
+    width: 70%;
+    position: absolute;
+    
+    
+}
+.topBuscar {
+    width:30%;
+    padding-left: 70%;
+    padding-top: 1%;
+    padding-right:2%;
+    /*position: relative;*/
+    width:auto;
+    text-align:right;
+    
+    
+}
+/*.form2 {
+    padding-left: 60%;
+    width: 100px;
+    height: 40px;
+    text-align: left;
+    position: absolute;
+    z-index: 1;
+    top: 39px;
+    left: 0px;
+}*/
+a {
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align:end;
+}
+#TxbBuscar {
+    padding-left: 10%;
+}
+
+
+#NombreMenu {
+    padding-right:10%;
+    padding-left:5%;
+}
+
