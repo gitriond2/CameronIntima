@@ -1,7 +1,7 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuMaster.master.cs" Inherits="CameronIntima.MenuMaster" %>
 
 <!DOCTYPE html>
-<html >
+<html>
 <%-- inicio del head --%>
 <head>
     <title>Cameron Intima</title>
@@ -10,111 +10,217 @@
     <link rel="stylesheet" href="/CSS/colores.css">
     <link rel="stylesheet" href="/CSS/posicionYdesplazamiento.css">
 
-    <%--<link rel="apple-touch-icon" href="apple-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">--%>   
-    <%--<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
+    <%--estilos viejos --%>
+    <link rel="apple-touch-icon" href="/CSS_viejo/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="CSS_viejo/img/favicon.ico">
+    <link rel="stylesheet" href="/CSS_viejo/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS_viejo/css/templatemo.css">
+    <link rel="stylesheet" href="/CSS_viejo/css/custom.css">
 
     <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="assets/css/fontawesome.min.css">--%>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="CSS_viejo/css/fontawesome.min.css">
+
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
-
-
-
     </asp:ContentPlaceHolder>
 </head>
-<%--fin del head--%>        
-    <%--comienzo del body--%>
+<%--fin del head--%>
+<%--comienzo del body--%>
 <body>
-                    <%--barra de navegacion oscura--%>
-   <nav class="topBlack" >
+    <%--barra de navegacion oscura--%>
+    <nav class="topBlack">
 
-       <div class="topDecoration">
-           <a><asp:Label ID="Label3" runat="server" Text="1158918067" ForeColor="White"></asp:Label></a>
+        <div class="topDecoration">
+            <%--contenedor isquierdo--%>
+            <div class="topContenedorDer">
+                <a><asp:Label ID="Label3" runat="server" Text="1158918067" ForeColor="White"></asp:Label></a>
 
-           <a><asp:Label ID="Label4" runat="server" Text="ailuribles@gmail.com" ForeColor="White"></asp:Label></a>
+                <a><asp:Label ID="Label4" runat="server" Text="ailuribles@gmail.com" ForeColor="White"></asp:Label></a>
 
-       </div>
+            </div>
 
-   </nav>
-    
-                    <%--fin de barra de navegacion oscura--%>
+            <%--<div class="topContenedorIsq">
+                <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
 
-                         <%--comienzo de barra de navegacion--%>
-    <nav class="navBarTop" id="navBarTop">
-        <div id="topNbar" class="topNbar">
-        <asp:Label ID="NombreMenu" runat="server" Font-Names="Brush Script MT" Font-Size="XX-Large" Text="Cameron Intima" ForeColor="#FF0066" Font-Bold="True"></asp:Label>
-        
-        <a><asp:Label ID="inicioBd" runat="server" Text="Inicio"></asp:Label></a>
-        <a><asp:Label ID="TiendaBd" runat="server" Text="Tienda"></asp:Label> </a>
-        <a><asp:Label ID="AboutBd" runat="server" Text="Acerca De Nosotros"></asp:Label> </a>
-        <a><asp:Label ID="CompraBd" runat="server" Text="Compras"></asp:Label> </a>
+            </div>--%>
 
         </div>
-         
-        <div class="topBuscar" >
-            <form runat="server" id="form2" >
-     
-                <asp:TextBox ID="TxbBuscar" runat="server" ForeColor="#FF66FF"></asp:TextBox>
-                <asp:Button  ID="IdBuscar" runat="server" Text="Buscar" BackColor="#FF66CC" BorderColor="Blue" />
-    
+
+    </nav>
+
+    <%--fin de barra de navegacion oscura--%>
+
+    <%--comienzo de barra de navegacion--%>
+    <nav class="navBarTop" id="navBarTop">
+
+        <div id="topNbar-left" class="topNbar-left">
+            <a href="Inicio.aspx" class="underLine-off">
+                <asp:Label ID="NombreMenu" runat="server" Font-Names="Brush Script MT" Font-Size="XX-Large" Text="Cameron Intima" ForeColor="#FF0066" Font-Bold="True" Font-Overline="False" Font-Underline="False"> </asp:Label>
+            </a>
+        </div>
+
+        <div class="topNbar-Middle">
+            
+            <a href="Inicio.aspx" class="underLine-off ">
+                <asp:Label ID="inicioBd" runat="server" Text="Inicio" Font-Overline="False" Font-Underline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label></a>
+            <a href="Tienda.aspx" class="underLine-off ">
+                <asp:Label ID="TiendaBd" runat="server" Text="Tienda" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
+            </a>
+            <a href="AcercaDeNosotros.aspx" class="underLine-off ">
+                <asp:Label ID="AboutBd" runat="server" Text="Acerca De Nosotros" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
+            </a>
+            <a href="Compras.aspx" class="underLine-off ">
+                <asp:Label ID="CompraBd" runat="server" Text="Compras" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
+            </a>
+
+        </div>
+
+
+        <%-- <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>--%>
+
+        <div class="topBuscar">
+            <form runat="server" id="form2">
+
+                <asp:TextBox ID="TxbBuscar" runat="server" ForeColor="#212529" ></asp:TextBox>
+                <asp:Button ID="IdBuscar" runat="server" Text="Buscar" BackColor="#FF66CC" BorderColor="Blue" OnClick="IdBuscar_Click1"  />
+                
             </form>
         </div>
-          
-  
+
+
     </nav>
-                        <%--fin de barra de navegacion--%>
-        <%--<form id="form1" runat="server">
+    <%--fin de barra de navegacion--%>
+    <%--<form id="form1" runat="server">
             <div>
             </div>
         </form>--%>
 
-                    <%--contenedor--%>
-
-            
-    <div class="Labelconteiner">
-    <asp:Label  ID="Label2" runat="server" Text="Label">Contenedor</asp:Label>
-    </div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    <%--contenedor--%>
 
 
-                
-                
-                
-
-
-                
-
-            </asp:ContentPlaceHolder>
     
-                    <%--contenedor--%>
-                    <%--antepiepagina--%>
-    <aside>
-        <div class="informacionYcontacto">
-            <form>
-                
-                <asp:Label ID="Label5" runat="server" Text="InformacionYcontenido"></asp:Label>
-                
-            </form>
-            
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
 
-        </div>
+    <%--contenedor--%>
 
-    </aside>
-                    <%--antepiepagina--%>
-                    <%--comienzo del footer--%>
-    <footer>
-       
+    <%--comienzo del footer--%>
+
+    <%-- </footer>
         <div class="Labelfooter">
             <asp:Label  ID="Label1" runat="server" Text="Label">footer</asp:Label>
+        </div>--%>
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Tienda Cameron</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Belgrano 70, B1704ETB La Matanza, Provincia de Buenos Aires
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" href="tel:1158918067">1158918067</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="ailuribles@gmail.com">ailuribles@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Elegante</a></li>
+                        <li><a class="text-decoration-none" href="#">Ropa deportiva</a></li>
+                        <li><a class="text-decoration-none" href="#">Vestimenta popular</a></li>
+                        <li><a class="text-decoration-none" href="#">Accesorios de gimnasio</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Más información</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="#">Acerca De Nosotros</a></li>
+                        <li><a class="text-decoration-none" href="#">Compras</a></li>
+                        <li><a class="text-decoration-none" href="#">Foro</a></li>
+                        <li><a class="text-decoration-none" href="#">Contactanos</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email address</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                        <div class="input-group-text btn-success text-light">Subscribe</div>
+                    </div>
+                </div>
+            </div>
         </div>
-     
+
+
+        <!-- End Footer -->
     </footer>
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
 </body>
 </html>

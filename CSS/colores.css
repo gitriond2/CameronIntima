@@ -16,6 +16,12 @@
     background-color:black;
 }
 .informacionYcontacto {
-    background-color: #ff0000;
+    background-color: #ffffff;
+}
+.letrasNegras{
+    color: aqua;
 }
 
+#TextAdvertencia{
+   /* color:aliceblue;*/
+}

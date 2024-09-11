@@ -54,6 +54,6 @@ C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\bin\M
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\obj\Debug\CameronIntima.csproj.AssemblyReference.cache
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\obj\Debug\CameronIntima.csproj.CoreCompileInputs.cache
-C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\obj\Debug\CameronIntima.csproj.CopyComplete
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\obj\Debug\CameronIntima.dll
 C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\obj\Debug\CameronIntima.pdb
+C:\Users\JoseR\Documents\Visual Studio 2022\Programas Prueba\CameronIntima\obj\Debug\CameronI.7E67C659.Up2Date
