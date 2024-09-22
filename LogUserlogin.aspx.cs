@@ -62,7 +62,7 @@ namespace CameronIntima
                     {
                         
                         Session["Usuario"] = textUser.Text;
-                        Page.Response.Redirect("Inicio.aspx");
+                        this.Response.Redirect("Inicio.aspx", false);
                         //Response.Redirect("Inicio.aspx?id2=" + textUser.Text );
                         //Response.Redirect("Inicio.aspx", true);
                     }

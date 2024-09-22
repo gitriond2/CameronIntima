@@ -23,16 +23,18 @@ namespace CameronIntima
         protected void Page_Load(object sender, EventArgs e)
         {
             {
+
                 if (!Page.IsPostBack)
                 {
                     if (Session["Usuario"] == null)
                     {
-                        Response.Redirect("LogUserLogin.aspx");
+                        Response.Redirect("LogUserLogin.aspx",false);
                     }
                     else
                     {
-                        if (Session["Usuario"].ToString() != String.Empty)
-                            Response.Redirect("LogUserLogin.aspx");
+                        //string ses = Session["Usuario"].ToString(); para checkear session
+                        if (Session["Usuario"].ToString() == String.Empty)
+                            Response.Redirect("LogUserLogin.aspx",false);
                     }
                 }
             }
