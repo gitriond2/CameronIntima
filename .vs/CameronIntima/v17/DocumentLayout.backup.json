@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:inicio.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:cargaprod.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\cameronintima\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\cameronintima\\loguserlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:loguserlogin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\cameronintima\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\loguserlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:loguserlogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:cargaprod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +18,32 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inicio.aspx",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Inicio.aspx",
-              "RelativeDocumentMoniker": "Inicio.aspx",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Inicio.aspx",
-              "RelativeToolTip": "Inicio.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-17T22:48:53.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-17T21:56:42.189Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LogUserlogin.aspx",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\LogUserlogin.aspx",
-              "RelativeDocumentMoniker": "LogUserlogin.aspx",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\LogUserlogin.aspx",
-              "RelativeToolTip": "LogUserlogin.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-10T23:41:25.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Global.asax.cs",
-              "RelativeDocumentMoniker": "Global.asax.cs",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Global.asax.cs",
-              "RelativeToolTip": "Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T23:34:33.987Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LogUserlogin.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\LogUserlogin.aspx.cs",
-              "RelativeDocumentMoniker": "LogUserlogin.aspx.cs",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\LogUserlogin.aspx.cs",
-              "RelativeToolTip": "LogUserlogin.aspx.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwCEAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T22:32:09.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Inicio.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Inicio.aspx.cs",
-              "RelativeDocumentMoniker": "Inicio.aspx.cs",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Inicio.aspx.cs",
-              "RelativeToolTip": "Inicio.aspx.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwBkAAAAAAAAAAAAAAA==",
+              "Title": "cargaprod.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx.cs",
+              "RelativeDocumentMoniker": "cargaprod.aspx.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx.cs",
+              "RelativeToolTip": "cargaprod.aspx.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwEsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T20:24:02.135Z",
+              "WhenOpened": "2024-11-06T18:58:38.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cargaprod.aspx",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx",
+              "RelativeDocumentMoniker": "cargaprod.aspx",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx",
+              "RelativeToolTip": "cargaprod.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-10-18T03:20:48.265Z",
               "EditorCaption": ""
             }
           ]

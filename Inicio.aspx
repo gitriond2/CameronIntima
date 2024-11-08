@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MenuMaster.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="CameronIntima.Inicio" %>
+﻿ <%@ Page Title="" Language="C#" MasterPageFile="~/MenuMaster.Master" AutoEventWireup="true" CodeBehind="Inicio.aspx.cs" Inherits="CameronIntima.Inicio" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 </asp:Content>
@@ -31,7 +32,7 @@
                 <div class="container">
                     <div class="row p-5">
                         <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/banner_img_01.jpg" alt="">
+                            <img class="img-fluid" src=".\CSS_viejo\img\banner_img_03.jpg" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
@@ -142,7 +143,7 @@
   </div>
     
         
-    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDataItem" TypeName="CameronIntima.Inicio">
+    <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="GetDataItem" TypeName="CameronIntima.Tienda">
     </asp:ObjectDataSource>
     <table>
         </table>

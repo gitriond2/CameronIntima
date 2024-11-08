@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuMaster.master.cs" Inherits="CameronIntima.MenuMaster" %>
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MenuMaster.master.cs" Inherits="CameronIntima.MenuMaster" %>
 
 <!DOCTYPE html>
 <html>
@@ -82,8 +82,8 @@
             <a href="AcercaDeNosotros.aspx" class="underLine-off ">
                 <asp:Label ID="AboutBd" runat="server" Text="Acerca De Nosotros" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
             </a>
-            <a href="Compras.aspx" class="underLine-off ">
-                <asp:Label ID="CompraBd" runat="server" Text="Compras" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
+            <a href="cargaprod.aspx" class="underLine-off ">
+                <asp:Label ID="CompraBd" runat="server" Text="Vista de Productos" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
             </a>
 
         </div>
@@ -105,12 +105,12 @@
 </ul>--%>
 
         <div class="topBuscar">
-            <form runat="server" id="form2">
+<%--            <form runat="server" id="form2">
 
                 <asp:TextBox ID="TxbBuscar" runat="server" ForeColor="#212529" ></asp:TextBox>
                 <asp:Button ID="IdBuscar" runat="server" Text="Buscar" BackColor="#FF66CC" BorderColor="Blue" OnClick="IdBuscar_Click1"  />
                 
-            </form>
+            </form>--%>
         </div>
 
 

@@ -13,10 +13,11 @@ namespace CameronIntima
     
     public partial class LogUserlogin : System.Web.UI.Page
     {
-        
+        private static readonly string connectionString = ConfigurationManager.ConnectionStrings["localHost"].ConnectionString;
+
         //private static string Cadena = ConfigurationManager.ConnectionStrings["Cadena"].ConnectionString;
 
-        private static string Cadena = ConfigurationManager.ConnectionStrings["localHost"].ConnectionString;
+        private static string Cadena = connectionString;
         
         protected void Page_Load(object sender, EventArgs e)
         {

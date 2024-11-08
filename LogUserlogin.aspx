@@ -17,6 +17,7 @@
 
 	</head>
 	<body>
+	    <form id="form1" runat="server">
 	<section class="ftco-section" runat="server">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -40,7 +41,6 @@
 									</p>
 								</div>
 			      	</div>
-							<form action="#" class="signin-form" runat="server">
 			      		<div class="form-group mt-3" runat="server">
 			      			<%--<input type="text" class="form-control" required>--%>
 							  <asp:TextBox ID="textUser" CssClass="form-control" runat="server"></asp:TextBox>
@@ -69,7 +69,6 @@
 										<a href="#">Forgot Password</a>
 									</div>
 		            </div>
-		          </form>
 		          <p class="text-center">Not a member? <a data-toggle="tab" href="#signup">Sign Up</a></p>
 		        </div>
 		      </div>
@@ -82,5 +81,6 @@
 	<script src="loginmascara/js/jquery.min.js"></script>
 	<script src="loginmascara/js/main.js"></script>
 	<script src="loginmascara/js/popper.js"></script>
+	    </form>
 	</body>
 </html>
