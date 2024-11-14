@@ -8537,7 +8537,7 @@ textarea.form-control-lg {
 
 .mt-4 {
     margin-top: 1.5rem !important
-}
+   
 
 .mt-5 {
     margin-top: 3rem !important
@@ -8592,8 +8592,10 @@ textarea.form-control-lg {
 }
 
 .mb-4 {
-    margin-bottom: 1.5rem !important
+    margin-bottom: 1.5rem !important;
+   
 }
+
 
 .mb-5 {
     margin-bottom: 3rem !important
@@ -9031,6 +9033,7 @@ textarea.form-control-lg {
 .text-success {
     --bs-text-opacity: 1;
     color: rgba(var(--bs-success-rgb),var(--bs-text-opacity)) !important
+
 }
 
 .text-info {
@@ -9357,9 +9360,9 @@ textarea.form-control-lg {
     background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity)) !important
 }
 
-.bg-dark {
+.bg-white {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important
+    background-color: white(var(--bs-white-rgb),var(--bs-bg-opacity)) !important
 }
 
 .bg-black {
@@ -13455,5 +13458,11 @@ textarea.form-control-lg {
     .d-print-none {
         display: none !important
     }
+
+    .ImgLogIn {
+        height: 10px;
+        width: 10px;
+    }
 }
+
 /*# sourceMappingURL=bootstrap.min.css.map */

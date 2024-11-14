@@ -116,47 +116,47 @@ namespace CameronIntima
                             lblTexto.Text = "Error al guardar en la base de datos: " + ex.Message;
                             lblTexto.ForeColor = System.Drawing.Color.Red;
                         }
-                        
-                        /*                       finally
-                                               {
-                                                   // Asegura que la conexión se cierre
-                                                   if (connection != null && connection.State == System.Data.ConnectionState.Open)
-                                                   {
-                                                       connection.Close();
-                                                   }
-                                               }*/
-
-                        /*                        // Ejecución de la consulta
-                                                   int filasAfectadas = comando.ExecuteNonQuery();
-
-                                                   // Verificación
-                                                   if (filasAfectadas > 0)
-                                                   {
-                                                       //MessageBox.Show("Datos guardados correctamente.");
-                                                       lblTexto.Text = "Se ha generado el usuario para " + txtNombre.Text + " " + txtCategoria.Text;
-                                                       lblTexto.ForeColor = System.Drawing.Color.DarkGreen;
-                                                       txtNombre.Text = "";
-                                                       txtCategoria.Text = "";
-                                                       descripcion.Text = "";
-                                                       txtTalle.Text = "";
-                                                       txtColor.Text = "";
-                                                       txtPrecio.Text = "";
-                                                   }
-                                                   else
-                                                   {
-                                                       //MessageBox.Show("No se pudo guardar la información.");
-                                                       lblTexto.Text = "Ha ocurrido un error";
-                                                       lblTexto.ForeColor = System.Drawing.Color.Red;
-                                                   }*/
-
-
 
                     }
 
                     connection.Close();
 
 
-                }
+                   /* try
+                    {
+                        //connection.Open();
+                        int filasAfectadas = comando.ExecuteNonQuery();
+
+
+                        // Verificación
+                        if (filasAfectadas > 0)
+                        {
+                            mensajeVista = $"Producto Guardado correctamente De {txtNombre.Text}!";
+                            //lblTexto.Text = "Producto guardado correctamente para " + txtNombre.Text + " " + txtCategoria.Text;
+                            //lblTexto.ForeColor = System.Drawing.Color.DarkGreen;
+                            LimpiarFormulario();
+                        }
+                        else
+                        {
+                            mensajeVista = "Ha ocurrido un error al Guardar el Producto.";
+                            //lblTexto.Text = "Ha ocurrido un error al guardar el producto.";
+                            //lblTexto.ForeColor = System.Drawing.Color.Red;
+                        }
+                        //connection.Close();
+                    }
+                    catch (Exception ex) //
+                    {
+                        mensajeVista = "Error al guardar en la base de datos: " + ex.Message;
+                        //lblTexto.Text = "Error al guardar en la base de datos: " + ex.Message;
+                        //lblTexto.ForeColor = System.Drawing.Color.Red;
+                    }
+
+
+                    }*/
+                    //string script = $"alert('{mensajeVista}');";
+                    //ClientScript.RegisterStartupScript(this.GetType(), "Mensaje", script, true);
+
+                }   
 
             }
 

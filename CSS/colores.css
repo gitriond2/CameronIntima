@@ -1,19 +1,23 @@
 ﻿body {
 }
-.navBarTop{
-    background-color:#feabff ;
+.navBarTop {
+    background-color: #d6938a !important; /* Forzar el color de fondo */
+    padding: 10px;
 }
-.Labelfooter{
-    background-color:aqua;
+
+.Labelfooter {
+    background-color: aqua;
 }
 .Labelconteiner{
-    background-color:blueviolet;
+    background-color:black !important;
 }
-.topBlack {
-    /* background-color:black;*/
+.topRed {
+    background-color: #d6938a !important; /* Fondo crema */
+    color: #d6938a !important; /* Texto blanco */
+    padding: 10px !important;
 }
 .topDecoration {
-    background-color:black;
+    background-color: #d6938a ;
 }
 .informacionYcontacto {
     background-color: #ffffff;

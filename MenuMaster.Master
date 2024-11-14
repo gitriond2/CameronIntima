@@ -37,42 +37,50 @@
 <%--fin del head--%>
 <%--comienzo del body--%>
 <body>
-    <%--barra de navegacion oscura--%>
-    <nav class="topBlack">
-
-        <div class="topDecoration">
-            <%--contenedor isquierdo--%>
-            <div class="topContenedorDer">
-                <a><asp:Label ID="Label3" runat="server" Text="1158918067" ForeColor="White"></asp:Label></a>
-
-                <a><asp:Label ID="Label4" runat="server" Text="ailuribles@gmail.com" ForeColor="White"></asp:Label></a>
+   <form runat="server">
+    <%--barra de navegacion color crema--%>
+     <%--style="background-color: #d6938a; color: #d6938a; padding: 10px;"--%>
+     <%--<div class="topDecoration">--%>
+        
+<nav class="pdding navbar-expand-lg bg-black navbar-light d-none d-lg-block" id="templatemo_nav_top">
+    <div class="container text-light">
+        <div class="w-100 d-flex justify-content-between">
+            <div>
 
             </div>
+            <div>
+                <a class="referencedLogin" href="LogUserLogin.aspx" target="_blank" rel="sponsored">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                    </svg>
+                    </a>
+                    
 
-            <%--<div class="topContenedorIsq">
-                <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
-
-            </div>--%>
-
+                </div>
+            </div>
         </div>
-
     </nav>
+
+        <%--</div>--%>
+
+   
 
     <%--fin de barra de navegacion oscura--%>
 
     <%--comienzo de barra de navegacion--%>
     <nav class="navBarTop" id="navBarTop">
 
-        <div id="topNbar-left" class="topNbar-left">
-            <a href="Inicio.aspx" class="underLine-off">
-                <asp:Label ID="NombreMenu" runat="server" Font-Names="Brush Script MT" Font-Size="XX-Large" Text="Cameron Intima" ForeColor="#FF0066" Font-Bold="True" Font-Overline="False" Font-Underline="False"> </asp:Label>
-            </a>
-        </div>
+        <div style="align-items: center; justify-content: flex-start; height: 0px;">
+        <a href="Inicio.aspx" class="underLine-off" style="text-decoration: none;">
+        <asp:Label ID="NombreMenu" runat="server" Font-Names="Brush Script MT" Font-Size="XX-Large" Text="Cameron Intima" ForeColor="#ff9ac4" Font-Bold="True" CssClass="text-sombra" style="text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"></asp:Label>
+    </a>
+            
+</div>
 
-        <div class="topNbar-Middle">
+
+        <%--</div>--%>
+
+        <div class="topNbar-Middle" runat ="server">
             
             <a href="Inicio.aspx" class="underLine-off ">
                 <asp:Label ID="inicioBd" runat="server" Text="Inicio" Font-Overline="False" Font-Underline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label></a>
@@ -82,9 +90,12 @@
             <a href="AcercaDeNosotros.aspx" class="underLine-off ">
                 <asp:Label ID="AboutBd" runat="server" Text="Acerca De Nosotros" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
             </a>
-            <a href="cargaprod.aspx" class="underLine-off ">
-                <asp:Label ID="CompraBd" runat="server" Text="Vista de Productos" Font-Overline="False" ForeColor="black" Font-Names="Brush Script MT" Font-Size="XX-Large"></asp:Label>
-            </a>
+            <%--<a   >--%> <%--class="underLine-off" href="listaprod.aspx" OnClick="LinkLabel1_Click"--%>
+                <asp:LinkButton runat="server" ID="linkLabel" href="vistaprod.aspx" class="underLine-off LinkLabel1"  Text="Vista De Productos" Font-Overline="False" ForeColor="Black" Font-Names="Brush Script MT" Font-Size="XX-Large" EnableViewState="False" Height="40px" Width="179px" Visible="False"></asp:LinkButton>
+            
+
+            <%--</a>--%>
+             <%--ID="HyperLink1" runat="server">HyperLink--%>
 
         </div>
 
@@ -105,10 +116,10 @@
 </ul>--%>
 
         <div class="topBuscar">
-<%--            <form runat="server" id="form2">
+            <%--<form runat="server" id="form2">
 
-                <asp:TextBox ID="TxbBuscar" runat="server" ForeColor="#212529" ></asp:TextBox>
-                <asp:Button ID="IdBuscar" runat="server" Text="Buscar" BackColor="#FF66CC" BorderColor="Blue" OnClick="IdBuscar_Click1"  />
+                <asp:TextBox ID="TxbBuscar" runat="server" ForeColor="#d6938a" Font-Size="30px"></asp:TextBox>
+                <asp:Button ID="IdBuscar" runat="server" Text="Buscar" BackColor="#d6938a" BorderColor="Black" OnClick="IdBuscar_Click1" Font-Size="30px"/>
                 
             </form>--%>
         </div>
@@ -137,46 +148,46 @@
             <asp:Label  ID="Label1" runat="server" Text="Label">footer</asp:Label>
         </div>--%>
     <!-- Start Footer -->
-    <footer class="bg-dark" id="tempaltemo_footer">
+    <footer id="tempaltemo_footer" style="background-color: #d6938a;">
         <div class="container">
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Tienda Cameron</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo" style="color:#000000 !important;" >Tienda Cameron</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Belgrano 70, B1704ETB La Matanza, Provincia de Buenos Aires
+                            <i class="fas fa-map-marker-alt fa-fw" style="color:#000000 !important;" ></i>
+                           <a class="text-decoration-none" style="color:#000000 !important;" > Belgrano 70, B1704ETB La Matanza, Provincia de Buenos Aires </a>
                         </li>
                         <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:1158918067">1158918067</a>
+                            <i class="fa fa-phone fa-fw" style="color:#000000 !important;" ></i>
+                            <a class="text-decoration-none" href="tel:1158918067" style="color:#000000 !important;" >1158918067</a>
                         </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="ailuribles@gmail.com">ailuribles@gmail.com</a>
+                        <li> 
+                            <i class="fa fa-envelope fa-fw" style="color:#000000 !important;" ></i>
+                            <a class="text-decoration-none" href="ailuribles@gmail.com" style="color:#000000 !important;" >ailuribles@gmail.com</a>
                         </li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Productos</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light" style="color:#000000 !important;">Productos</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Elegante</a></li>
-                        <li><a class="text-decoration-none" href="#">Ropa deportiva</a></li>
-                        <li><a class="text-decoration-none" href="#">Vestimenta popular</a></li>
-                        <li><a class="text-decoration-none" href="#">Accesorios de gimnasio</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:#000000 !important;" >Elegante</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:#000000 !important;" >Ropa deportiva</a></li>
+                        <li><a class="text-decoration-none" href="# "style="color:#000000 !important;" >Vestimenta popular</a></li>
+                        <li><a class="text-decoration-none" href="# "style="color:#000000 !important;" >Accesorios de gimnasio</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Más información</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light" style="color:#000000 !important;">Más información</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Inicio</a></li>
-                        <li><a class="text-decoration-none" href="#">Acerca De Nosotros</a></li>
-                        <li><a class="text-decoration-none" href="#">Compras</a></li>
-                        <li><a class="text-decoration-none" href="#">Foro</a></li>
-                        <li><a class="text-decoration-none" href="#">Contactanos</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:#000000 !important;" >Inicio</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:#000000 !important;" >Acerca De Nosotros</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:#000000 !important;" >Compras</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:#000000 !important;" >Foro</a></li>
+                        <li><a class="text-decoration-none" href="#" style="color:#000000 !important;" >Contactanos</a></li>
                     </ul>
                 </div>
 
@@ -205,8 +216,8 @@
                 <div class="col-auto">
                     <label class="sr-only" for="subscribeEmail">Email address</label>
                     <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
+                        <input type="text" class="form-control bg-white border-light" id="subscribeEmail" >
+                        <div class="input-group-text style="background-color: #FF5733; color:#d6938a;"">Subscribite</div>
                     </div>
                 </div>
             </div>
@@ -215,12 +226,18 @@
 
         <!-- End Footer -->
     </footer>
+       <%--logo de whatsapp despues tocar--%>
+      <%-- <div id="boton_ws" style="position: fixed; bottom: 75px; right: 15px; filter: drop-shadow(2px 4px 6px #ababab);">
+           <a href="https://api.whatsapp.com/send/?phone=541122811669&amp;text=Hola%21+Quiero+comprar+por+mayor%21+%EF%BF%BD&amp;type=phone_number&amp;app_absent=0" target="_bank">
+               <img src="imagenes/whatsapp.svg" id="WhatsappWPIMG" style="width: 55px"></a>
+       </div>--%>
+</form>
     <!-- Start Script -->
-    <script src="assets/js/jquery-1.11.0.min.js"></script>
+<%--    <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
-    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/custom.js"></script>--%>
     <!-- End Script -->
 </body>
 </html>

@@ -11,34 +11,25 @@ namespace CameronIntima
 {
 
 
-    public partial class Tienda
+    public partial class FotoLink
     {
 
         /// <summary>
-        /// Control repeaterProductos.
+        /// Control ImagenProducto.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Repeater repeaterProductos;
+        protected global::System.Web.UI.WebControls.Image ImagenProducto;
 
         /// <summary>
-        /// Control btnPrevious.
+        /// Control BtnVolver.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPrevious;
-
-        /// <summary>
-        /// Control btnNext.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnNext;
+        protected global::System.Web.UI.WebControls.Button BtnVolver;
     }
 }

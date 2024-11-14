@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:cargaprod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\cameronintima\\vistaprod.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:vistaprod.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|c:\\users\\joser\\documents\\visual studio 2022\\programas prueba\\cameronintima\\cargaprod.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\vistaprod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:vistaprod.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:cargaprod.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\menumaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:menumaster.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\tienda.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:tienda.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\tienda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:tienda.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\fotolink.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5B191AD-4C53-459F-B327-4316E8BBBA7B}|CameronIntima.csproj|solutionrelative:fotolink.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +38,101 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "vistaprod.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\vistaprod.aspx.cs",
+              "RelativeDocumentMoniker": "vistaprod.aspx.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\vistaprod.aspx.cs",
+              "RelativeToolTip": "vistaprod.aspx.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T20:20:52.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuMaster.Master",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\MenuMaster.Master",
+              "RelativeDocumentMoniker": "MenuMaster.Master",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\MenuMaster.Master",
+              "RelativeToolTip": "MenuMaster.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T22:47:56.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FotoLink.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\FotoLink.aspx.cs",
+              "RelativeDocumentMoniker": "FotoLink.aspx.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\FotoLink.aspx.cs",
+              "RelativeToolTip": "FotoLink.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowBgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T23:01:54.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "vistaprod.aspx",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\vistaprod.aspx",
+              "RelativeDocumentMoniker": "vistaprod.aspx",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\vistaprod.aspx",
+              "RelativeToolTip": "vistaprod.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-11-13T22:49:20.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "cargaprod.aspx.cs",
               "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx.cs",
               "RelativeDocumentMoniker": "cargaprod.aspx.cs",
               "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx.cs",
               "RelativeToolTip": "cargaprod.aspx.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAIwC8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwDsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T18:58:38.435Z",
+              "WhenOpened": "2024-11-13T21:20:44.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "cargaprod.aspx",
-              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx",
-              "RelativeDocumentMoniker": "cargaprod.aspx",
-              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\cargaprod.aspx",
-              "RelativeToolTip": "cargaprod.aspx",
+              "DocumentIndex": 4,
+              "Title": "Tienda.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Tienda.aspx.cs",
+              "RelativeDocumentMoniker": "Tienda.aspx.cs",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Tienda.aspx.cs",
+              "RelativeToolTip": "Tienda.aspx.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAMwB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:12:33.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Tienda.aspx",
+              "DocumentMoniker": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Tienda.aspx",
+              "RelativeDocumentMoniker": "Tienda.aspx",
+              "ToolTip": "C:\\Users\\JoseR\\Documents\\Visual Studio 2022\\Programas Prueba\\CameronIntima\\Tienda.aspx",
+              "RelativeToolTip": "Tienda.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-18T03:20:48.265Z",
+              "WhenOpened": "2024-11-13T18:11:47.877Z",
               "EditorCaption": ""
             }
           ]

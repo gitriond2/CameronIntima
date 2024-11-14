@@ -356,6 +356,7 @@
     <Content Include="CSS_viejo\webfonts\slick.svg" />
     <Content Include="Eliminar.aspx" />
     <Content Include="formularioDeCarga.aspx" />
+    <Content Include="FotoLink.aspx" />
     <Content Include="Inicio.aspx" />
     <Content Include="javascript\APP\Registrar.js" />
     <Content Include="javascript\codigoBoostrapp1.css" />
@@ -381,6 +382,7 @@
     <Content Include="LogUserlogin.aspx" />
     <Content Include="Modificar.aspx" />
     <Content Include="Tienda.aspx" />
+    <Content Include="vistaprod.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -420,6 +422,13 @@
     <Compile Include="formularioDeCarga.aspx.designer.cs">
       <DependentUpon>formularioDeCarga.aspx</DependentUpon>
     </Compile>
+    <Compile Include="FotoLink.aspx.cs">
+      <DependentUpon>FotoLink.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FotoLink.aspx.designer.cs">
+      <DependentUpon>FotoLink.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Inicio.aspx.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -456,10 +465,16 @@
     </Compile>
     <Compile Include="Tienda.aspx.cs">
       <DependentUpon>Tienda.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Tienda.aspx.designer.cs">
       <DependentUpon>Tienda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="vistaprod.aspx.cs">
+      <DependentUpon>vistaprod.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vistaprod.aspx.designer.cs">
+      <DependentUpon>vistaprod.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <form runat="server">
+    <div runat="server">
 
 
         <table>
@@ -70,12 +70,12 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnModificar" runat="server" Text="Modificar" OnClick="btnModificar_Click" />
+                    <asp:Button ID="btnModificar" runat="server" Text="Modificar"  />
                 </td>
             </tr>
 
 
         </table>
 
-    </form>
+    </div>
 </asp:Content>

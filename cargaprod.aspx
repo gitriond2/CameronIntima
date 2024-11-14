@@ -11,7 +11,7 @@
     <link href="CSS/posicionYdesplazamiento.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <form runat="server">
+    <div runat="server">
         <fieldset runat="server">
    
             <legend style="font-family: 'Arial', sans-serif; font-size: 24px; font-weight: bold; color: #333; text-align: left; text-transform: uppercase; margin-bottom: 20px;">Agregar Producto</legend>
@@ -147,6 +147,6 @@
 
 
 
-    </form>
+    </div>
     <script src="javascript/js/global.js"></script>
 </asp:Content>
